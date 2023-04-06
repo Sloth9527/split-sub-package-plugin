@@ -1,0 +1,12 @@
+{
+  "name": "split-sub-package-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Sloth9527/split-sub-package-plugin.git",
+  "author": "Sloth",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.78.0"
+  }
+}
