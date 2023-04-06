@@ -4,21 +4,15 @@
 		<view>
 			<text class="title">{{title}}</text>
 		</view>
-		<navigator url="/subPages/about/index" hover-class="navigator-hover">
-			<button type="default">about</button>
-		</navigator>
-		<navigator url="/subPages/info/index" hover-class="navigator-hover">
-			<button type="default">info</button>
-		</navigator>
 	</view>
 </template>
 
 <script>
-import { log } from '../../common/utils';
+import { log, aboutTitle } from '../../common/utils'
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: aboutTitle()
 			}
 		},
 		onLoad() {
